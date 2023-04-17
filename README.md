@@ -1,6 +1,5 @@
----
- index.html
----
+# index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,11 +46,8 @@
 </body>
 </html>
 
-===================================================================
+# style.css
 
----
-style.css
----
 label {
   display: block;
   font-family: Arial, sans-serif;
@@ -103,9 +99,8 @@ button:hover {
   display: none;
 }
 
----
-script.js
----
+# script.js
+
 var formDataArray =  [];
 
 function saveData() {
@@ -179,5 +174,3 @@ function getCookie(name) {
 
     return null;
 }
-
-
